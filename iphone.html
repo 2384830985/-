@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>alert</title>
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- <div class="t-alert-content">
+<div class="t-company-add">
+<div class="t-company-Determine">确定</div>
+<div class="t-company-Determine-left">确定</div>
+<div class="t-company-Determine-right">确定</div>
+<div class="t-company-cancal">取消</div>
+</div>
+</div> -->
+<button onclick="dsds()">dsds</button>
+</body>
+<script src="main.js"></script>
+<script type="text/javascript">
+function dsds() {
+	BBsg.EjectAlertL({
+		ok: [{
+			title:"你好",
+			color: 'red'
+		},{
+			title:"你好",
+			color: ''
+		},{
+			title:"你好",
+			color: 'red'
+		},{
+			title:"你好",
+			color: ''
+		}],
+		suss: function(index){
+			console.log(index)
+		}
+	})
+}
+
+</script>
+</html>
